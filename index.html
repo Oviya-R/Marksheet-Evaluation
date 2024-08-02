@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet Evaluation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="body">
+        <div class="heading">
+            <p>Sr.No.<span class="number">00000000</span></p>
+            <img class="logo" src="images/images-removebg-preview (1).png">
+            <img class="qrcode" src="images/qrcode_120442096_d1565a3315910f81e6f52f444affb99a.png">
+        </div>
+
+        <h2>Hindusthan College of Engineering and Technology</h2>
+        <p><b>Approved by AICTE, New Delhi and Accredited with 'A++' Grade by NAAC<br>(An Autonomous institution, Affiliated to Anna University, Chennai)<br>Coimbatore - 641 032</b></p>
+        <h3>ANNUAL STATEMENT OF MARKS</h3>
+
+        <table class="table1">
+            <tr>
+                <td colspan="2"><span class="name"><b>Name of the Candidate</b></span><br>OVIYA R</td>
+                <td><span class="name names"><b>Course Name</b></span><br>ELECTRONICS AND COMMUNICATION</td>
+            </tr>
+            <tr>
+                <td><span class="name"><b>Reg.No.</b></span><br>720721106077</td>
+                <td><span class="name name1"><b>Roll No:</b></span><br>720721106077</td>
+                <td><span class="name names"><b>Authorised Training Center Name</b></span><br><span class="names">HINDUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY</span></td>
+            </tr>
+        </table><br>
+
+        <table class="table2">
+            <tr>
+                <td rowspan="2"><span class="head"><b>Subject</b></span></td>
+                <td class="subname" rowspan="2"><span class="head"><b>Subject Name</b></span></td>
+                <td rowspan="2"><span class="head"><b>Max.Marks</b></span></td>
+                <td colspan="3"><span class="head"><b>Marks Obtained In Figures</b></span></td>
+                <td rowspan="2"><span class="head"><b>Total in Words</b></span></td>
+            </tr>
+            <tr>
+                <td><span class="head"><b>Theory</b></span></td>
+                <td><span class="head"><b>Practical</b></span></td>
+                <td><span class="head"><b>Total</b></span></td>    
+            </tr>
+           
+            <tr>
+                <td>21EC6181</td>
+                <td>Principles of Management</td>
+                <td>100</td>
+                <td><input id="theory-1" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-1" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-1" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input onclick="return numberToWords()" id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC6251</td>
+                <td>Embedded System and IOT</td>
+                <td>100</td>
+                <td><input id="theory-2" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-2" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-2" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC6253</td>
+                <td>Digital Communication</td>
+                <td>100</td>
+                <td><input id="theory-3" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-3" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-3" class="total" placeholder="marks" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC6301</td>
+                <td>Medical Electronic</td>
+                <td>100</td>
+                <td><input id="theory-4" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-4" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-4" class="total" placeholder="marks" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC2045</td>
+                <td>Intellectual Property Rights (IPR)</td>
+                <td>100</td>
+                <td><input id="theory-5" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-5" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-5" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC2045</td>
+                <td>Practical-I</td>
+                <td>100</td>
+                <td><input id="theory-6" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-6" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-6" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC2045</td>
+                <td>Practical-II</td>
+                <td>100</td>
+                <td><input id="theory-7" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-7" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-7" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+            <tr>
+                <td>21EC2045</td>
+                <td>Practical-III</td>
+                <td>100</td>
+                <td><input id="theory-7" class="theory" placeholder="marks" type="number"></td>
+                <td><input id="practical-7" class="practical" placeholder="marks" type="number"></td>
+                <td><input id="total-7" class="total" placeholder="Total" type="number" readonly></td>
+                <td><input id="total-8" class="total" placeholder="In words" type="number" readonly></td>
+            </tr>
+           
+
+            <tr>
+                <td colspan="2"><span class="head"><b>Grand Total</b></span></td>
+                <td colspan="5"><input id="grand-total" type="text" readonly></td>
+              
+            </tr>
+            <tr>
+                <td colspan="2"><span class="head"><b>Month and Year Examination</b></span></td>
+                <td colspan="2"><span class="head"><b>No. of Subjects Offered</b></span></td>
+                <td><span class="head"><b>Result</b></span></td>
+                <td><span class="head"><b>Percentage</b></span></td>
+                <td><span class="head"><b>Grade</b></span></td>
+            </tr>
+            <tr>
+                <td colspan="2">May 2024</td>
+                <td colspan="2">T5+P3=8</td>
+                <td><input id="result" type="text" readonly></td>
+                <td><input id="percentage" type="text" readonly></td>
+                <td><input id="grade" type="text" readonly></td>
+            </tr>
+        </table><br><br>
+
+        <div class="footer">
+            <h5><span class="date"><b>Date:</b></span>23.8.2024</h5>
+            <div class="sign"><h5>(Signature of Deputy Controller of Examination)<br><span class="signature"><b>Deputy Controller of Examination</b></span></h5></div>
+        </div>
+        <h5 class="lastline">Subject Marked with * Indicates Exemption</h5>
+    </div>
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>
+
